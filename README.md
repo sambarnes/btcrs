@@ -1,8 +1,12 @@
 # btcrs
 
+[![pypi](https://img.shields.io/pypi/v/btcrs.svg)](https://pypi.python.org/pypi/btcrs)
+
 Needed to use some existing [bitcoin-rust](https://github.com/bitcoin-rust/bitcoin-rust) stuff from python.
 
 For now, just wraps address validation and generation. Will add more as needed.
+
+Installation: `pip install btcrs` or `poetry add btcrs`
 
 ```python
 >>> import btcrs
