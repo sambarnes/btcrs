@@ -11,7 +11,7 @@ env:
 
 jobs:
   test:
-    name: Rust project - latest
+    name: build & test
     runs-on: ubuntu-latest
     strategy:
       matrix:
